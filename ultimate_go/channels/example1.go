@@ -1,3 +1,5 @@
+// Дождитесь результата
+
 package main
 
 import (

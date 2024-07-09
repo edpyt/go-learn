@@ -1,3 +1,5 @@
+// Веерный выход
+
 package main
 
 import (
