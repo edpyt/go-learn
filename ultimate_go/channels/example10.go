@@ -22,7 +22,7 @@ func channelCancellation(stop <-chan struct{}) {
       cancel()
     case <-ctx.Done():
     }
-  }
+  }()
 
   func(ctx context.Context) error {
     req, err := http.NewRequestWithContext(ctx, http.MethodGet, "https://www.ardanlabs.com/blog/index.xml", nil)
