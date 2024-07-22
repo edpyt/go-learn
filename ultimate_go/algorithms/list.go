@@ -53,7 +53,6 @@ func (l *List) Add(data string) *Node {
   }
 
   l.last.next = &n
-
   l.last = &n
 
   return &n
